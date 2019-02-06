@@ -1,4 +1,4 @@
-##Prerequisites
+## Prerequisites
 
 1. Create realm in keycloak server
 2. Create first client application with Access Type *public*
@@ -7,7 +7,7 @@
 5. Create first user with role *user*
 6. Create second user with role *admin*
 
-##Execution Steps
+## Execution Steps
 
 1. Admin will have access on all APIs including admin API
 
