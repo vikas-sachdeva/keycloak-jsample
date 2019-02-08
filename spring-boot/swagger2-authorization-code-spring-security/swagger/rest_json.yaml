@@ -1,0 +1,33 @@
+swagger: '2.0'
+info:
+  description: REST JSON jsample
+  version: '1.0'
+  title: REST JSON jsample Api Documentation
+host: 'localhost:8080'
+basePath: /
+tags:
+  - name: application-controller
+    description: the application controller API
+paths:
+  /hello:
+    get:
+      tags:
+        - application-controller
+      summary: User hello message
+      operationId: getMsg    
+      responses:
+        '200':
+          description: message retrival is successful
+          schema:
+            type: string
+  /admin/hello:
+    get:
+      tags:
+        - application-controller
+      summary: Admin hello message
+      operationId: getAdminMsg     
+      responses:
+        '200':
+          description: message retrival is successful
+          schema:
+            type: string

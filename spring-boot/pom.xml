@@ -82,5 +82,7 @@
 	<modules>
 		<module>spring-boot-adapter</module>
 		<module>spring-security-adapter</module>
+		<module>swagger2-authorization-code-spring-security</module>
+		<module>swagger2-implicit-spring-security</module>
 	</modules>
 </project>
