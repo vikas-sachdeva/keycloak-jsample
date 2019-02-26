@@ -83,5 +83,6 @@
 		<module>swagger2-authorization-code-spring-security</module>
 		<module>swagger2-implicit-spring-security</module>
     <module>user-management-spring-security</module>
+    <module>method-level-security</module>
   </modules>
 </project>
